@@ -6,40 +6,8 @@ En este momento, está disponibles las siguientes macros:
 - Fotos Alumnos
 
 # Fotos Alumnos
-El código fuente de esta macro está disponible en el fichero  *plantilla.xlsm* toma las fotas almacenadas en la carpeta 
+Esta macro sitúa la foto y el nombre de los alumnos de un grupo ordenados en un documento Excel. Esta hoja de cálculo se puede exportar o imprimir fácilmente a un documento PDF con el que los profesores pueden identificar rápidamente a sus alumnos. 
 
-You can use the [editor on GitHub](https://github.com/juanluiscarrillo/Macros-Microsoft-Office/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+El código fuente de esta macro está disponible en el fichero *MacroFotos.bas*. No obstante, se encuentra inluido en el fichero Excel *FotosAlumnos.xlsm*.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/juanluiscarrillo/Macros-Microsoft-Office/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+La macro, por tanto, se ejecutará desde el citado documento Excel. Para su correcto funcionamiento, en la carpeta donde se encuentre este fichero debe haber dos ficheros de imágenes, *logocm.jpg* y *logoies.jpg*, que pueden personalizarse, y una carpeta con nombre *fotos* donde se guardarán las fotos de cada alumno. El nombre de cada uno los ficheros que contiene la imagen de un alumno deberá coincidir con el nombre del alumno, y la extensión debe ser *.jpg*
