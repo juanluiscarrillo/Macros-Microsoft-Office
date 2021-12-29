@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages
+## Macros para Microsoft Office
+
+En este repositorio se colgarán las macros realizadas para Microsof Office.
+
+En este momento, está disponibles las siguientes macros:
+- Fotos Alumnos
+
+# Fotos Alumnos
+El código fuente de esta macro está disponible en el fichero  *plantilla.xlsm* toma las fotas almacenadas en la carpeta 
 
 You can use the [editor on GitHub](https://github.com/juanluiscarrillo/Macros-Microsoft-Office/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
